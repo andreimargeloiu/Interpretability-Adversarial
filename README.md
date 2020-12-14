@@ -2,10 +2,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/a-norcliffe/sonode/blob/master/LICENSE) [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-370/)
 
 Official code for the NeurIPS 2020 Workshop paper [**Improving Interpretability in Medical Imaging Diagnosis using Adversarial Training**](https://arxiv.org/abs/2012.01166) ([Andrei Margeloiu](https://twitter.com/andreimargeloiu), 
- [Nikola Simidjievski](https://simidjievskin.github.io/),
- [Adrian Weller](http://mlg.eng.cam.ac.uk/adrian/), 
- [Mateja Jamnik](https://www.cl.cam.ac.uk/~mj201/))
+ [Nikola Simidjievski](https://simidjievskin.github.io/), 
+ [Mateja Jamnik](https://www.cl.cam.ac.uk/~mj201/),
+ [Adrian Weller](http://mlg.eng.cam.ac.uk/adrian/))
 
+
+[**SlidesShare VIDEO presentation**](https://slideslive.com/38942990/improving-the-interpretability-in-medical-imaging-diagnosis-using-adversarial-training)
 
 ![Interpretability results on Gradient and Integrated Gradience of Standard Training vs Adversarial Training (proposed method)](figures/results.jpg)
 
@@ -18,19 +20,21 @@ We investigate the influence of adversarial training on the interpretability of 
 We used `python 3.7` for this project. All packge requirements were frozen in `requirements.txt`
 
 ### **Google Colab** (fastest way)
-```
 1. https://colab.research.google.com/
 2. File -> Open notebook -> Github -> paste the link of this repository https://github.com/margiki/Interpretability-Adversarial
 3. Open the /notebooks/evaluate_model.ipynb
-4. Enjoy! The scripts automatically installs all package requirements in Google Colab.
-```
+4. Download the [trained models and data splits](https://drive.google.com/file/d/1t4pozXp_AhoAZz5UShI3iwGZ-ncF9aSI/view?usp=sharing) and upload them to your personal Google Drive (you will need to provide the path to your Google Drive in the notebooks)
+5. Enjoy! The scripts automatically installs all package requirements in Google Colab.
+
 
 ### Locally:
+Download the [trained models and data splits](https://drive.google.com/file/d/1t4pozXp_AhoAZz5UShI3iwGZ-ncF9aSI/view?usp=sharing) and upload them to your personal Google Drive (you will need to provide the path to your Google Drive in the notebooks)
 ```bash
 cd PATH_TO_THE_PROJECT
 conda create -n robustness python=3.7
 pip install requirements.txt
 ```
+
 
 ## Citation
 For attribution in academic contexts, please cite this work as
